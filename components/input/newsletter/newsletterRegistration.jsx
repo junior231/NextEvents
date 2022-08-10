@@ -18,8 +18,6 @@ const NewsLetterRegistration = () => {
       status: "pending",
     });
 
-    // optional: validate input
-
     fetch("/api/register", {
       method: "POST",
       body: JSON.stringify(payload),

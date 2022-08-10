@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 
 const url =
-  "mongodb+srv://ilo:nextjs@cluster0.xpbxdar.mongodb.net/?retryWrites=true&w=majority";
+  process.env.MONGO_URI;
 const client = new MongoClient(url);
 const dbName = "events";
 

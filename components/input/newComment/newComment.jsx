@@ -32,6 +32,10 @@ const NewComment = (props) => {
       name,
       comment,
     });
+
+    setComment('')
+    setName('')
+    setEmail('')
   }
 
   return (

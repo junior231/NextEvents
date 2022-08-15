@@ -40,6 +40,7 @@ const NewsLetterRegistration = () => {
           message: "Successfully registered for Newsletter",
           status: "success",
         });
+        setEmail('')
       })
       .catch((error) => {
         notificationCtx.showNotification({

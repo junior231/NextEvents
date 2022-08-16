@@ -1,11 +1,6 @@
 import styles from "./commentList.module.css";
-import { useEffect } from "react";
 
 const CommentList = ({ items, handleReloadComments }) => {
-  useEffect(() => {
-    console.log("loading");
-  }, [items]);
-
   return (
     <div>
       <span style={{ marginLeft: "auto" }}>

@@ -1,6 +1,6 @@
 # NextEvents
 
-This is event finder application. View upcoming events around you and sign up to our newsletter to get notified on future events in your area. You can also explore a particular event and leave a comment.
+This is an event finder application. View upcoming events around you and sign up to our newsletter to get notified on future events in your area. You can also explore a particular event and leave a comment.
 
 ## Requirements
 For development, you will need `node` and `npm` installed on your local machine.

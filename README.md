@@ -34,7 +34,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Languages & tools
 - Next.js
 - MongoDB 
-- React-Icons 
+- Node.js
+- React
+- React Icons
 
 
 ## Contributing
